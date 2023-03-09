@@ -18,15 +18,7 @@ public class Animal {
     }
 
     public String moverse(){
-
-        return switch (tipo) {
-            case "Ave" -> "El animal vuela";
-            case "Mamifero" -> "El animal camina";
-            case "Reptil" -> "El animal se arrastra";
-            case "Pez" -> "El animal nada";
-            default -> "El animal se mueve";
-        };
-
+        return "El animal se mueve";
     }
 
     public String getNombre() {
