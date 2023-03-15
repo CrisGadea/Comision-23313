@@ -19,6 +19,10 @@ public class Tamagotchi {
         this.tiempoEnMinutos = 0;
     }
 
+    public Tamagotchi(String nombre){
+        this.nombre = nombre;
+    }
+
 
     // Metodos
 
